@@ -34,6 +34,8 @@ elif [[ $1 == "--help" || $1 == "-h" ]]; then
   echo "  my_script.sh --date OR -d                    Display today's date"
   echo "  my_script.sh --logs [num] OR -l [num]        Create [num] log files, default 
 100"
+  echo "  my_script.sh --error [num] OR -e [num]       Create [num] error directories and files, default 100"
+echo " my_script.sh --init 			       Clone the entire repository to the current directory and set the PATH environment variable"
   echo "  my_script.sh --help OR -h                    Display this help message"
 else
   echo "Invalid option. Use --help to see available options."
